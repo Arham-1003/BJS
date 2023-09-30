@@ -305,6 +305,7 @@ h3 + img {
 
 .font-weight-bold {
 	font-weight: 700;
+	color:#ef6942;
 }
 
 .font-weight-ubold {
@@ -1303,11 +1304,11 @@ html [class*='section-'].section-bottom-0 {
 
 @media (min-width: 992px) {
 	.row-separated-item:nth-child(1n + 4) {
-		border-top: 1px solid #f4f2ee;
+		border-top: 1px solid #d90e90;
 	}
 	.row-separated-item:nth-child(3n + 2) {
-		border-left: 1px solid #f4f2ee;
-		border-right: 1px solid #f4f2ee;
+		border-left: 1px solid #d90e90;
+		border-right: 1px solid #d90e90;
 	}
 }
 
@@ -3774,7 +3775,7 @@ textarea.form-input {
 }
 
 .news-img-overlay {
-	border-top-color: rgba(217, 14, 144, 0.8);
+	border-top-color: #ef7630;
 	transform: scale(0.3);
 	transform-origin: right top;
 	opacity: 0;
@@ -3845,6 +3846,7 @@ textarea.form-input {
 
 * + .news-title {
 	margin-top: 7px;
+	/* color: #ef7630; */
 }
 
 * + .news-link {
@@ -3927,6 +3929,7 @@ textarea.form-input {
 .post-single-title {
 	font-weight: 500;
 	line-height: 1.2;
+	color:#ef7630;
 }
 
 .post-single-quote {
@@ -4188,6 +4191,7 @@ textarea.form-input {
 .post-aside-title {
 	font-weight: 600;
 	line-height: 1.2;
+	color:#ef7630;
 }
 
 .post-aside-list-tag > li {
@@ -4636,6 +4640,7 @@ textarea.form-input {
 
 * + .breadcrumbs-custom-title {
 	margin-top: 14px;
+	color: #ef7630;
 }
 
 @media (max-width: 991.98px) {
@@ -5010,6 +5015,8 @@ textarea.form-input {
 	margin-right: auto;
 	padding: 20px 20px 25px;
 	background-color: #ffffff;
+	border-radius: 20px;
+	border: 2px solid #ef7630;
 }
 
 .speaker-img {
@@ -5022,7 +5029,7 @@ textarea.form-input {
 }
 
 .speaker-overlay {
-	border-top-color: rgba(217, 14, 144, 0.8);
+	border-top-color: #ef7630;
 	transform: scale(0.3);
 	transform-origin: right top;
 	opacity: 0;
@@ -5079,7 +5086,8 @@ textarea.form-input {
 .speaker-title, .context-dark .speaker-title {
 	line-height: 1.2;
 	font-weight: 600;
-	color: #26264b;
+	/* color: #26264b; */
+	color:#ef7630;
 }
 
 .speaker-title a, .context-dark .speaker-title a, .speaker-title a:focus, .speaker-title a:active {
@@ -5116,6 +5124,9 @@ textarea.form-input {
 	max-width: 270px;
 	margin-left: auto;
 	margin-right: auto;
+	border: 2px solid #ef7630;
+	padding: 10px 10px 15px;
+	border-radius: 20px;
 }
 
 .speaker-classic-img {
@@ -5177,7 +5188,8 @@ textarea.form-input {
 .speaker-classic-title, .context-dark .speaker-classic-title {
 	line-height: 1.2;
 	font-weight: 600;
-	color: #26264b;
+	/* color: #26264b; */
+	color:#ef7630;
 }
 
 .speaker-classic-title a, .context-dark .speaker-classic-title a, .speaker-classic-title a:focus, .speaker-classic-title a:active {
@@ -5254,8 +5266,13 @@ textarea.form-input {
 	padding-bottom: 25px;
 }
 
+.sps{
+	color: #ef7630;
+}
+
 .sponsor-info-title {
 	font-weight: 600;
+	color: #ef7630;
 }
 
 .sponsor-info-link {
@@ -5330,8 +5347,10 @@ textarea.form-input {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-image: -webkit-linear-gradient(left, #822ea8 0%, #d90e90 100%);
-	background-image: linear-gradient(to right, #822ea8 0%, #d90e90 100%);
+	/* background-image: -webkit-linear-gradient(left, #822ea8 0%, #d90e90 100%);
+	background-image: linear-gradient(to right, #822ea8 0%, #d90e90 100%); */
+	background-image: -webkit-linear-gradient(left, #ef7642 0%, #ef7630 100%);
+	background-image: linear-gradient(to right, #ef7642 0%, #ef7630 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF822EA8', endColorstr='#FFD90E90', GradientType=1);
 	opacity: 0;
@@ -5367,11 +5386,13 @@ textarea.form-input {
 .sponsor-modern:hover .sponsor-modern-img-default {
 	opacity: 0;
 	transform: scale(0.6);
+	color:#ef7630;
 }
 
 .sponsor-modern:hover .sponsor-modern-img-active {
 	opacity: 1;
 	transform: scale(1);
+	color:#ef7630;
 }
 
 .sponsor-modern-overlay {
@@ -5398,7 +5419,8 @@ textarea.form-input {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px;
-	border: 2px solid #f4f2ee;
+	border: 2px solid #ef7630;
+	border-radius: 20px;
 }
 
 .sponsor-ritmo-header {
@@ -5425,12 +5447,16 @@ textarea.form-input {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-image: -webkit-linear-gradient(left, #822ea8 0%, #d90e90 100%);
-	background-image: linear-gradient(to right, #822ea8 0%, #d90e90 100%);
+	background-image: -webkit-linear-gradient(left, #ef7642 0%, #ef7630 100%);
+	background-image: linear-gradient(to right, #ef7642 0%, #ef7630 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF822EA8', endColorstr='#FFD90E90', GradientType=1);
 	opacity: 0;
 	transition: .3s ease-out all;
+}
+
+.sponsor-ritmo-title {
+	color: #ef7630;
 }
 
 .sponsor-ritmo-header:hover:before {
