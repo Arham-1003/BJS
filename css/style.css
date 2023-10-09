@@ -1460,7 +1460,7 @@ h6 + .heading-3,
 
 h4,
 .heading-4 {
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 600;
 }
 
@@ -5826,7 +5826,7 @@ textarea.form-input {
 
 @media (min-width: 1200px) {
 	.schedule-classic-title {
-		font-size: 33.99px;
+		font-size: 16px;
 	}
 }
 
@@ -9210,7 +9210,7 @@ button.swiper-pagination-bullet {
 .tabs-custom .nav-link:hover,
 .tabs-custom .nav-link.active {
 	color: #26264b;
-	background-color: #f4f2ee;
+	background-color: #06bffd;
 }
 
 .tabs-custom .nav-link:hover .nav-link-title,
@@ -9256,7 +9256,7 @@ button.swiper-pagination-bullet {
 .tab-content {
 	position: relative;
 	padding: 10px;
-	background-color: #f4f2ee;
+	background-color: #06bffd;
 }
 
 .tab-pane {
