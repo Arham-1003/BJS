@@ -2131,7 +2131,7 @@ html .group-custom > * {
 }
 
 .unit-spacing-md {
-	margin-bottom: -15px;
+	margin-bottom: -1px;
 	margin-left: -20px;
 }
 
@@ -2722,8 +2722,8 @@ a.icon[class*='youtube']:hover {
 }
 
 .svg-icon-md {
-	width: 30px;
-	height: 30px;
+	width: 70px;
+	height: 70px;
 }
 
 .svg-icon-lg {
@@ -5753,7 +5753,8 @@ textarea.form-input {
 .schedule-classic-img > img {
 	display: inline-block;
 	overflow: hidden;
-	width: 13rem;
+	width: 9rem;
+	/* margin: 1rem; */
 }
 
 .schedule-classic-img + .schedule-classic-img {
@@ -5773,7 +5774,7 @@ textarea.form-input {
 }
 
 .schedule-classic-time {
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: .2em;
 	color: #d90e90;
@@ -5820,7 +5821,7 @@ textarea.form-input {
 
 @media (min-width: 992px) {
 	.schedule-classic-content {
-		padding: 60px 66px;
+		padding: 10px 40px;
 	}
 }
 
@@ -5854,6 +5855,7 @@ textarea.form-input {
 @media (min-width: 992px) {
 	.schedule-classic-simple .schedule-classic-content {
 		padding-left: 207px;
+		margin-bottom: 1rem;
 	}
 }
 
@@ -6918,7 +6920,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-fixed .rd-navbar-brand img {
 	max-width: 140px;
-	max-height: 58px;
+	max-height: 55px;
 	width: auto;
 	height: auto;
 }
@@ -7772,8 +7774,8 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
-	max-width: 100px;
 	max-height: 50px;
+	width: 4rem;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main-element {
@@ -9385,6 +9387,8 @@ button.swiper-pagination-bullet {
 .card-group-custom .card-header + .collapse > .card-body,
 .card-group-custom .card-header + .collapse > .list-group {
 	border-top: 0;
+	color: black;
+	font-weight: 600;
 }
 
 .card-group-custom .card + .card {
@@ -9456,7 +9460,7 @@ button.swiper-pagination-bullet {
 
 @media (min-width: 992px) {
 	.card-custom .card-body {
-		padding: 45px 10px 45px 208px;
+		padding: 15px 10px 20px 208px;
 	}
 	.card-custom .card-body > * + * {
 		margin-top: 30px;
@@ -9465,7 +9469,7 @@ button.swiper-pagination-bullet {
 
 @media (min-width: 1200px) {
 	.card-custom .card-body {
-		padding: 45px 10px 45px 208px;
+		padding: 5px 10px 20px 208px;
 	}
 	.card-custom .card-body > * + * {
 		margin-top: 48px;
